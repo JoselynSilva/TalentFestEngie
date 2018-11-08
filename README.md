@@ -26,7 +26,7 @@ La solución que presentamos va dirigido a todas las personas que tienen a cargo
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
 Prototipo Final realizado en 
-[Ver Prototipo](https://www.figma.com/file/eMd4F8M53y2I6dA1kikqxfMU/demo1?node-id=0%3A1)
+[Ver Prototipo](https://www.figma.com/proto/dBbnWBGr2QjtKLbR3WGXO4Cq/Untitled?node-id=0%3A1&scaling=min-zoom)
 
 [Figma](https://www.figma.com/proto/dBbnWBGr2QjtKLbR3WGXO4Cq/Untitled?node-id=0%3A1&scaling=min-zoom), una herramienta fácil de utilizar, y sirve para el diseño de prototipos de páginas webs.
 
