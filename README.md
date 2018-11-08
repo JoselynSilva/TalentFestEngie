@@ -33,5 +33,10 @@ Prototipo Final realizado en
 Diseño del Prototipo Final: <br>
 ![Prototipo Final](https://raw.githubusercontent.com/Grecia2727/TalentFestEngie/practica/src/image/reto-engie.gif)
 
+## Sketch:
+
+![Primer prototipo](https://raw.githubusercontent.com/Grecia2727/TalentFestEngie/practica/src/image/sketch1.jpeg)
+
+
 
 
