@@ -17,7 +17,7 @@ const sendEmailMandrill = (el) => {
 
                 "text": "Example text content",
                 "subject": `Visita de `,
-                "from_email": "lucero.g@laboratoria.la",
+                "from_email": "ENGIE.g@laboratoria.la",
                 "from_name": "ENGIE REPORTA INCIDENCIAS",
                 "to": [
                     {
