@@ -8,17 +8,17 @@ const sendEmailMandrill = (el) => {
             'key': 'ZGiSDAUGJIgaCMIqm9ysPA',
             'message': {
                 "html": `<div>
-          <p>Estimado colaborador, te comunicamos que el cliente ${el.Region} , 
-          de la empresa , desea reunirse contigo en este instante. 
-         Por favor, comunicate con el área de Recepción para confirmar su ingreso o al numero  del cliente.</p>
+          <p>Estimado colaborador(a) ${el.Responsable}, gracias por estar al día con el seguimiento de la incidencia registrada
+          en la región:  ${el.Region}. El resumen de su incidencia es el siguiente: ${el.Description}
+         Recuerde, que estamos para apoyarlo.</p>
          Atte.
-         Empresa Co-Working
+         Empresa ENGIE
          </div>`,
 
                 "text": "Example text content",
                 "subject": `Visita de `,
                 "from_email": "lucero.g@laboratoria.la",
-                "from_name": "Registro de visitantes",
+                "from_name": "ENGIE REPORTA INCIDENCIAS",
                 "to": [
                     {
                         "email": `${el.email}`,
@@ -42,9 +42,9 @@ firebase.database().ref().child('Incidencia').on('value', function (data) {
     content.innerHTML = '';
     incident.forEach((ele) => {
       Object.values(ele).forEach(el => {
-        //   if(el.status===100){
+          if(el.status = "100"){
             sendEmailMandrill(el);
-        // }
+        }
       })
     })
   })
