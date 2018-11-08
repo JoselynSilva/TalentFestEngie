@@ -1,15 +1,5 @@
-firebase.database().ref().child('Incidencia').on('value', function (data) {
-    const incident = Object.values(data.val());
-    content.innerHTML = '';
-    incident.forEach((ele) => {
-      Object.values(ele).forEach(el => {
-          if(el.status===100){
-            sendEmailMandrill(el);
-          }
-      })
-    })
-  })
-
+  console.log("hola");
+  
 const sendEmailMandrill = (el) => {
     $.ajax({
         type: "POST",
@@ -31,15 +21,14 @@ const sendEmailMandrill = (el) => {
                 "from_name": "Registro de visitantes",
                 "to": [
                     {
-                        "email": "gutierrezanicamalucero@gmail.com",
+                        "email": `${el.email}`,
                         "name": "Grecia G.A.",
                         "type": "to"
                     }
                 ],
                 "headers": {
-                    "Reply-To": "gutierrezanicamalucero@gmail.com"
+                    "Reply-To": "gutierrezanicamalucero@gmail.com",
                 }
-
             },
             "async": false,
             "ip_pool": "Main Pool",
@@ -47,3 +36,15 @@ const sendEmailMandrill = (el) => {
         }
     });
 }
+
+firebase.database().ref().child('Incidencia').on('value', function (data) {
+    const incident = Object.values(data.val());
+    content.innerHTML = '';
+    incident.forEach((ele) => {
+      Object.values(ele).forEach(el => {
+        //   if(el.status===100){
+            sendEmailMandrill(el);
+        // }
+      })
+    })
+  })
