@@ -13,10 +13,10 @@ Un error de muchas organizaciones es pensar que el entrenamiento en seguridad de
 ## Objetivos de Proyecto
 
 Los objetivos fueron:
-1- Salvar vidas.
-2- Optimizar el proceso de Consultas de incidencias.
-3- Realizar un seguimiento a las incidencias con el fin de prevenir accidentes.
-4- Rápida visualización de datos, que facilitan la toma de decisiones.
+1. Salvar vidas.
+2. Optimizar el proceso de Consultas de incidencias.
+3. Realizar un seguimiento a las incidencias con el fin de prevenir accidentes.
+4. Rápida visualización de datos, que facilitan la toma de decisiones.
 
 ## ¿A quién va dirigido?
 
