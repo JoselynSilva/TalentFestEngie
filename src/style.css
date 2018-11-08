@@ -1,70 +1,13 @@
-/* * {
-    margin: 0px; 
-    padding: 0px;
-    box-sizing: border-box;
-  } */
-  
-  body {
-    background-color:#ffffff;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    width: 100%;
-    line-height: 1;
-		font-size: 12px;
-		margin: 0px;
-  }
+.hola{
+	border-right: solid 5px;
+	background-color: white;
+}
+.navbar-expand-lg{
+	background-color: #00AAE7;
+}
 
-  header{
-		width: 100%;
-		height: 10%;
-		/* background-color:rgb(118, 184, 223); */
-		margin:auto;
-		border: #000000 0px solid;
-	} 
-
-	 logo{
-		 width: 3px;
-		 height: 10px;
-		 text-align: left;
-	 }
-
-	main{
-		width: 90%;
-		height: auto;
-		background-color:#00AAE7;
-		margin:auto;
-		position: relative;
-		display: flex;
-		align-items: stretch;
-			/* border: #000000 1px solid; */
-	}   
-
-	nav{
-		/* width: 20%; */
-		height: 500px; 
-		background-color: #00AAE7;
-		border: #000000 1px solid;
-	}
-
-	.custom-select{
-		background: #ffffff;
-		padding-left: 3px
-	}
-
-	footer{
-		width: 90%;
-		height: auto;
-		background-color: #ffffff;
-		margin: auto;
-		border: #000000 0px solid;
-		text-align: center;
-	}
-
-	.hide{
-  	display: none;
-	}
-
-	.show{
-  	display: block;
-	}
+body {
+	background-image: url(image/Fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 240vh;
+}
