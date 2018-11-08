@@ -156,8 +156,6 @@ const showData = (el) => {
       list.appendChild(li);
     }
   })
-  const pStatus = document.createElement('p');
-  pStatus.textContent = `Estado : ${el.status}`;
   const modalFooter = document.createElement('div');
   modalFooter.setAttribute('class', 'modal-footer');
   const btnDetails = document.createElement('button');
@@ -174,7 +172,6 @@ const showData = (el) => {
   modalHeader.appendChild(btnClose);
   modalBody.appendChild(pRes);
   modalBody.appendChild(list);
-  modalBody.appendChild(pStatus);
   modalFooter.appendChild(btnDetails);
   modalFooter.appendChild(btnCls);
   modalContent.appendChild(modalHeader);
